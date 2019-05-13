@@ -170,4 +170,7 @@
         "lint": "tslint -c ./tslint.json -e './**/node_modules/**' -e './**/src/**/*.{js,jsx}' -p ./tsconfig.json -t stylish",
         "storybook": "start-storybook -p 9001 -c build/.storybook"
     }
+    "engines": {
+        "yarn": "1.16.0"
+    }
 }
